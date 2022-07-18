@@ -9,6 +9,12 @@
 // console.log(judgeLength("apple"));
 
 // 三項演算子で記述
+// const judgeLength = (str) => {
+//   return 5 <= str.length && str.length < 10 ? true : false;
+// };
+// console.log(judgeLength("apple"));
+
+// 三項演算子はreturnを省略できる
 const judgeLength = (str) => {
   return 5 <= str.length && str.length < 10 ? true : false;
 };
